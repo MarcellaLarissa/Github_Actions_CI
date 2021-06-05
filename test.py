@@ -11,7 +11,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(example.subtract(1, 1), 0)
 
     def test_multiply_1(self):
-        self.assertEqual(example.subtract(5, 5), 25)
+        self.assertEqual(example.multiply(5, 5), 25)
 
 
 if __name__ == '__main__':
